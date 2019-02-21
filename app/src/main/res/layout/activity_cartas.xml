@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:layout_height="match_parent"
+    tools:context=".CartasActivity">
+
+    <TextView
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CARTA"
+        android:gravity="center"
+        android:id="@+id/txtcartas"
+        android:textSize="20dp"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/txtcartas"
+        android:id="@+id/cartaBandolon"
+        android:layout_marginBottom="10dp"
+        android:src="@mipmap/sandolon"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/cartaVioloncello"
+        android:layout_toRightOf="@id/cartaBandolon"
+        android:layout_below="@id/txtcartas"
+        android:layout_marginBottom="10dp"
+        android:src="@mipmap/violoncelo"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/cartaGarza"
+        android:layout_toRightOf="@id/cartaVioloncello"
+        android:layout_below="@id/txtcartas"
+        android:layout_marginBottom="10dp"
+        android:src="@mipmap/garza"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/cartaPajaro"
+        android:layout_toRightOf="@id/cartaGarza"
+        android:layout_below="@id/txtcartas"
+        android:layout_marginBottom="10dp"
+        android:src="@mipmap/pajaro"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/cartaBandolon"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/cartaMano"
+        android:src="@mipmap/mano"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/cartaBota"
+        android:layout_toRightOf="@id/cartaMano"
+        android:layout_below="@id/cartaVioloncello"
+        android:layout_marginBottom="10dp"
+        android:src="@mipmap/bota"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/cartaLuna"
+        android:layout_toRightOf="@id/cartaBota"
+        android:layout_below="@id/cartaGarza"
+        android:layout_marginBottom="10dp"
+        android:src="@mipmap/luna"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/cartaCotorro"
+        android:layout_toRightOf="@id/cartaLuna"
+        android:layout_below="@id/cartaPajaro"
+        android:layout_marginBottom="10dp"
+        android:src="@mipmap/cotorro"/>
+
+    <ImageView
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:layout_below="@id/cartaMano"
+    android:layout_marginBottom="10dp"
+    android:id="@+id/cartaBorracho"
+    android:src="@mipmap/borracho"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/cartaNegrito"
+        android:layout_toRightOf="@id/cartaBorracho"
+        android:layout_below="@id/cartaMano"
+        android:layout_marginBottom="10dp"
+        android:src="@mipmap/negro"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/cartaCorazon"
+        android:layout_toRightOf="@id/cartaNegrito"
+        android:layout_below="@id/cartaBota"
+        android:layout_marginBottom="10dp"
+        android:src="@mipmap/corazon"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/cartaSandia"
+        android:layout_toRightOf="@id/cartaCorazon"
+        android:layout_below="@id/cartaCotorro"
+        android:layout_marginBottom="10dp"
+        android:src="@mipmap/sandria"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/cartaBorracho"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/cartaTambor"
+        android:src="@mipmap/tambor"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/cartaCamaron"
+        android:layout_toRightOf="@id/cartaTambor"
+        android:layout_below="@id/cartaNegrito"
+        android:layout_marginBottom="10dp"
+        android:src="@mipmap/camaron"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/cartaJaras"
+        android:layout_toRightOf="@id/cartaCamaron"
+        android:layout_below="@id/cartaCorazon"
+        android:layout_marginBottom="10dp"
+        android:src="@mipmap/jaras"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/cartaMusico"
+        android:layout_toRightOf="@id/cartaJaras"
+        android:layout_below="@id/cartaSandia"
+        android:layout_marginBottom="10dp"
+        android:src="@mipmap/musico"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cartaTambor"
+        android:id="@+id/btnreiniciar"
+        android:text="Reiniciar"/>
+
+</RelativeLayout>
